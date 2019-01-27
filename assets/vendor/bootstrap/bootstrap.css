@@ -206,8 +206,9 @@ figure {
 }
 
 img {
-  vertical-align: middle;
-  border-style: none;
+  
+  max-width: 100%;
+height: auto;
 }
 
 svg {
@@ -5810,7 +5811,11 @@ button.close {
 
 .carousel {
   position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 
 .carousel-inner {
   position: relative;
