@@ -41,15 +41,22 @@
 <!-- Navigation -->
 <style>
 
-.carousel-item .img-fluid {
-  width:100%;
-  height:auto;
-}
-.img-fluid {
-    max-width: 100%;
-    height: auto;
+.carousel-item  {
+  height: 100vh;
 }
 
+ @media only screen and (max-width: 600px) {
+   .carousel-item {
+    height: 50vh;
+   }
+  
+ }
+
+ @media only screen and (max-width: 990px) {
+   .carousel-item {
+     height: 80vh;
+   }
+ }
 </style>
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -110,21 +117,21 @@
     </ol>
     <div class="carousel-inner" role="listbox">
       <!-- Slide One - Set the background image for this slide in the line below -->
-      <div class="carousel-item active" style="background-image: url('slide.jpg');background-repeat: no-repeat!important;background-size: cover; height: 130% !important;" class="img-responsive">
+      <div class="carousel-item active" style="background-image: url('office2.jpg');background-repeat: no-repeat!important;background-size: cover;" class="img-responsive">
         <div class="carousel-caption d-none d-md-block">
           <h2 class="display-4">Agribusiness</h2>
           <p class="lead">Dr. Subiri at the farm.</p>
         </div>
       </div>
       <!-- Slide Two - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('sl2.jpg');background-repeat: no-repeat!important;background-size: cover; height: 130% !important;" class="img-responsive">
+      <div class="carousel-item" style="background-image: url('sl2.jpg');background-repeat: no-repeat!important;background-size: cover;" class="img-responsive">
         <div class="carousel-caption d-none d-md-block">
           <h2 class="display-4">Entrepreneurship</h2>
           <p class="lead">You have to believe it before you see it.</p>
         </div>
       </div>
         <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('slider3.jpg');background-repeat: no-repeat!important;background-size: cover; height: 130% !important;" class="img-responsive">
+        <div class="carousel-item" style="background-image: url('off.jpg');background-repeat: no-repeat!important;background-size: cover;" class="img-responsive">
           <div class="carousel-caption d-none d-md-block">
             <h2 class="display-4">Health and wellness</h2>
             <p class="lead">The greatest wealth is health.</p>
